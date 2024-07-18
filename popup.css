@@ -1,0 +1,97 @@
+body {
+    width: 300px;
+    font-family: Arial, sans-serif;
+}
+
+.title-container {
+    border-bottom: 1px solid rgba(0, 0, 0, .06);
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: center;
+}
+
+.title {
+    margin-left: 4px;
+}
+
+.input-container {
+    margin-top: 4px;
+    padding-bottom: 10px;
+}
+
+.input {
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-right: 5px;
+    border-radius: 4px;
+    font-size: larger;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+}
+
+input:focus-visible,
+button:focus-visible {
+    outline: 1px solid #007bff;
+    outline-offset: 0px;
+}
+
+button {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.save-session-btn {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.save-session-btn:hover,
+.save-session-btn:active,
+.save-session-btn:focus,
+.save-session-btn:focus-visible {
+    background-color: #0056b3;
+}
+
+.sessions-list {
+    padding-inline-start: 20px;
+}
+
+.session {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-left: 5px;
+}
+
+.session::before {
+    content: "\2022";
+    display: inline-block;
+    width: 20px;
+    margin-left: -25px;
+    text-align: center;
+}
+
+.session span {
+    flex-grow: 1;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.session button {
+    margin-left: 10px;
+    background-color: #ffffff;
+    color: #007bff;
+    border: 1px solid #007bff;
+}
+
+.session button:hover,
+.session button:active,
+.session button:focus,
+.session button:focus-visible {
+    background-color: #dbe5f2;
+}
