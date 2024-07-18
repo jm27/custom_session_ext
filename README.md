@@ -1,5 +1,6 @@
 ## Chrome extension called "Custom Session Saver."
 
+```
 project_root/
 │
 ├── background.js          # Background script specified in manifest
@@ -11,3 +12,4 @@ project_root/
 ├── popup.js          # popup script file
 ├── popup.css          # popup style file
 └── popup.html             # Default popup HTML file
+```
